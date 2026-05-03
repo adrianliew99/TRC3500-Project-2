@@ -1,0 +1,77 @@
+09:43:45 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-size  Project2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30916	    100	   3572	  34588	   871c	Project2.elf
+Finished building: default.size.stdout
+ 
+09:43:52 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-size  Project2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30916	    100	   3572	  34588	   871c	Project2.elf
+Finished building: default.size.stdout
+ 
+09:44:02 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-size  Project2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30916	    100	   3572	  34588	   871c	Project2.elf
+Finished building: default.size.stdout
+ 
+10:50:24 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-size  Project2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30916	    100	   3572	  34588	   871c	Project2.elf
+Finished building: default.size.stdout
+ 
+10:56:52 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-size  Project2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30916	    100	   3572	  34588	   871c	Project2.elf
+Finished building: default.size.stdout
+ 
+15:40:32 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L432xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Project2.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\Y3S2\TRC3500\Project 2\Project2\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Project2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Project2.elf
+ 
+arm-none-eabi-size  Project2.elf 
+arm-none-eabi-objdump -h -S Project2.elf  > "Project2.list"
+   text	   data	    bss	    dec	    hex	filename
+  30932	    100	   3572	  34604	   872c	Project2.elf
+Finished building: default.size.stdout
+ 
+Finished building: Project2.list
+ 
+15:40:37 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-size  Project2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30932	    100	   3572	  34604	   872c	Project2.elf
+Finished building: default.size.stdout
+ 
+15:50:08 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L432xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Project2.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\Y3S2\TRC3500\Project 2\Project2\STM32L432KCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Project2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Project2.elf
+ 
+arm-none-eabi-size  Project2.elf 
+arm-none-eabi-objdump -h -S Project2.elf  > "Project2.list"
+   text	   data	    bss	    dec	    hex	filename
+  30932	    100	   3572	  34604	   872c	Project2.elf
+Finished building: default.size.stdout
+ 
+Finished building: Project2.list
+ 
+15:50:12 **** Incremental Build of configuration Debug for project Project2 ****
+make -j16 all 
+arm-none-eabi-size  Project2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30932	    100	   3572	  34604	   872c	Project2.elf
+Finished building: default.size.stdout
+ 
