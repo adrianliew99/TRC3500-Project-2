@@ -1,5 +1,7 @@
 ## TRC3500 Project 2 | Group A4
 
+This repository contains the development of a Compact Pin-Drop Detection System, which developed by students from TRC3500 unit at Monash University Malaysia
+
 ---
 
 ### **Team Members**
